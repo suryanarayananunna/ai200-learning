@@ -1,0 +1,4 @@
+azure-identity
+azure-cosmos
+fastapi
+uvicorn[standard]

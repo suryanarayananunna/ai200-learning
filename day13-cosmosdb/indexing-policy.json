@@ -1,0 +1,37 @@
+{
+  "indexingMode": "consistent",
+  "automatic": true,
+  "includedPaths": [
+    {
+      "path": "/*"
+    }
+  ],
+  "excludedPaths": [
+    {
+      "path": "/\"_etag\"/?"
+    },
+    {
+      "path": "/content/?"
+    }
+  ],
+  "compositeIndexes": [
+    [
+      {
+        "path": "/category",
+        "order": "ascending"
+      },
+      {
+        "path": "/title",
+        "order": "ascending"
+      }
+    ]
+  ],
+  "spatialIndexes": [
+    {
+      "path": "/location/*",
+      "types": [
+        "Point"
+      ]
+    }
+  ]
+}
